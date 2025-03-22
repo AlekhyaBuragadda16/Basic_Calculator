@@ -1,0 +1,37 @@
+body{
+    background-color:white;
+}
+.calculator{
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: palevioletred;
+}
+#display{
+    width: 95%;
+    padding: 10 px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    background-color: lightcyan;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:5px;
+    
+}
+button{
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid lightgreen;
+    cursor: pointer;
+    background-color: lightgreen;
+}
+#clear{
+    background-color: orange;
+}
+button[data-value="="]{
+    background-color: cornsilk;
+}
